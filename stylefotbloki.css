@@ -15,7 +15,7 @@
   }
   
   .fa{
-    cursor: auto;
+    cursor: pointer;
   }
   
   .header{
@@ -106,48 +106,13 @@
   .profil{
     float:right;
   } 
-  
-
-
-
-  
-  .overflow{
-   
-    color: #1ba6b8d2;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 90%;
-   }
-  
-  .overflow:hover{
-    opacity: 1;
-  }
-  .katalog{
-    color: #000;
-    text-decoration: none;
-    background: #fff;
-    padding: 5px 20px;   
-    font-weight: bold;
-    opacity: 1;
-    border-radius: 6px;
-    transition: 0.3s;
-  }
-  .katalog:hover{
-    background: transparent;
-    border: 1px solid #ba7a7a;
-    color: #ff9100;
-  }
-  .heading{
-    font-size: 45px;
-    text-decoration: none;
-  }
   span{
     color: #230145;
   }
   span2{
     color: rgba(144, 0, 255, 0.704); 
   }
-
- 
+  .heading{
+    font-size: 4px;
+    text-decoration: none;
+  }
