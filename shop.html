@@ -1,185 +1,198 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shop Codex</title>
-</head>
-<body>
-
-<div class="header">
-  <nav>
-  <div class="heading">
-    <a href="shop.html" class="tab"><span2>Cod</span2><span>ex</span></a>
-    <a href="kontaks.html" class="kontakss">Контакты</a>
-    <a href="profil.html" class="profil">Мой аккаунт</a>
-    <a href="onas.html" class="onas">О нас</a>
-  </div>
-      <p id="items-basket"></p>
-    </div>
-  </div>
   <link rel="stylesheet" href="style6.css">
+</head>
+
+<body>
+  <div class="header">
+    <nav>
+      <div class="heading">
+        <a href="shop.html" class="tab">
+          <span2>Cod</span2><span>ex</span>
+        </a>
+        <a href="kontaks.html" class="kontakss">Контакты</a>
+        <a href="profil.html" class="profil">Мой аккаунт</a>
+        <a href="onas.html" class="onas">О нас</a>
+      </div>
+      <p id="items-basket"></p>
+  </div>
+  </div>
   <div id="cart-items">
     <ol id="list-item">
     </ol>
     <div class="buttons">
 
-    </nav>
+      </nav>
     </div>
-</div>
+  </div>
 
-<div class="items-container">
-  <div class="item">
-    <img src="https://printbar.ru/upload/thumb/images/at/at6uh97jb92_580x0.jpg">
-    <div class="overflow">
-      <i class="fa fa-cart-plus fa-5x" id="basket"></i>
-    </div>
-    <div class="item-detail">
-      <h3>Футболки</h3>
-    </div>
-      <div class="katalog">
-        <form action="fotbolki.html">
-          <button type="submit" class="katalog">Каталог</button>
-        </form>
-      </div>
-    </div>
-    
-  </div> 
   <div class="items-container">
     <div class="item">
+      <img src="https://printbar.ru/upload/thumb/images/at/at6uh97jb92_580x0.jpg">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-basket"
+          fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+        </svg>
+      </div>
+      <div class="item-detail">
+        <h3>Футболки</h3>
+      </div>
+      <div class="catalog">
+        <a href="fotbolki.html" class="catalog-link">Каталог</a>
+      </div>
+    </div>
+
+      <div class="item">
       <img src="https://www.lookbuck.com/system/products/items/images/052/454/860/small/20220504-006.jpg?1653663993">
-      <div class="overflow">
-        <i class="fa fa-cart-plus fa-5x" id="basket"></i>
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-basket"
+          fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+        </svg>
       </div>
       <div class="item-detail">
         <h3>Штаны</h3>
       </div>
-        <div class="katalog">
-          <form action="trousers.html">
-            <button type="submit" class="katalog">Каталог</button>
-          </form>
-        </div>
+      <div class="catalog">
+        <a href="trousers.html" class="catalog-link">Каталог</a>
       </div>
-    </div> 
+    </div>
 
-    <div class="items-container">
       <div class="item">
-        <img src="https://i.pinimg.com/736x/80/a8/99/80a899ceb07e60b13db6c318d398fcfb.jpg">
-        <div class="overflow">
-          <i class="fa fa-cart-plus fa-5x" id="basket"></i>
-        </div>
-        <div class="item-detail">
-          <h3>Худи</h3>
-        </div>
-          <div class="katalog">
-            <form action="hudi.html">
-              <button type="submit" class="katalog">Каталог</button>
-            </form>
-          </div>
-        </div>
-        
-      </div> 
-      <div class="items-container">
-        <div class="item">
-          <img src="https://www.foroffice.ru/upload/iblock/560/47200102_1.tif_1000x1000.jpg">
-          <div class="overflow">
-            <i class="fa fa-cart-plus fa-5x" id="basket"></i>
-          </div>
-          <div class="item-detail">
-            <h3>Кофты</h3>
-          </div>
-            <div class="katalog">
-              <form action="kofti.html">
-                <button type="submit" class="katalog">Каталог</button>
-              </form>
-            </div>
-          </div>
-        </div> 
-  
-        <div class="items-container">
-          <div class="item">
-            <img src="https://img.freepik.com/premium-photo/white-blank-shorts-isolated-white-background_373676-1530.jpg">
-            <div class="overflow">
-              <i class="fa fa-cart-plus fa-5x" id="basket"></i>
-            </div>
-            <div class="item-detail">
-              <h3>Шорты</h3>
-            </div>
-              <div class="katalog">
-                <form action="Shorts.html">
-                  <button type="submit" class="katalog">Каталог</button>
-                </form>
-              </div>
-            </div>
-          </div> 
+      <img src="https://i.pinimg.com/736x/80/a8/99/80a899ceb07e60b13db6c318d398fcfb.jpg">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-basket"
+          fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+        </svg>
+      </div>
+      <div class="item-detail">
+        <h3>Худи</h3>
+      </div>
+      <div class="catalog">
+        <a href="hudi.html" class="catalog-link">Каталог</a>
+      </div>
+    </div>
+ 
+      <div class="item">
+      <img src="https://www.foroffice.ru/upload/iblock/560/47200102_1.tif_1000x1000.jpg">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-basket"
+          fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+        </svg>
+      </div>
+      <div class="item-detail">
+        <h3>Кофты</h3>
+      </div>
+      <div class="catalog">
+          <a href="kofti.html" class="catalog-link">Каталог</a>
+      </div>
+    </div>
 
-          
-          <div class="items-container">
-            <div class="item">
-              <img src="https://img.freepik.com/premium-photo/winter-warm-jacket-isolated-white-background_564276-4611.jpg">
-              <div class="overflow">
-                <i class="fa fa-cart-plus fa-5x" id="basket"></i>
-              </div>
-              <div class="item-detail">
-                <h3>Куртки</h3>
-              </div>
-                <div class="katalog">
-                  <form action="Jackets.html">
-                    <button type="submit" class="katalog">Каталог</button>
-                  </form>
-                </div>
-              </div>
-            </div> 
-  
-            <div class="items-container">
-              <div class="item">
-                <img src="https://img.freepik.com/premium-photo/white-sneaker-one-white-sneaker-isolated-simulation-walking-process-motion-sport-shoe-concept_256259-605.jpg">
-                <div class="overflow">
-                  <i class="fa fa-cart-plus fa-5x" id="basket"></i>
-                </div>
-                <div class="item-detail">
-                  <h3>Обувь</h3>
-                </div>
-                  <div class="katalog">
-                    <form action="Shoes.html">
-                      <button type="submit" class="katalog">Каталог</button>
-                    </form>
-                  </div>
-                </div>
-              </div> 
-    
-              <div class="items-container">
-                <div class="item">
-                  <img src="https://i.pinimg.com/originals/ba/46/cc/ba46cc951b76f5e0ddff160ca7c7d450.jpg">
-                  <div class="overflow">
-                    <i class="fa fa-cart-plus fa-5x" id="basket"></i>
-                  </div>
-                  <div class="item-detail">
-                    <h3>Свитера</h3>
-                  </div>
-                    <div class="katalog">
-                      <form action="sviters.html">
-                        <button type="submit" class="katalog">Каталог</button>
-                      </form>
-                    </div>
-                  </div>
-                </div> 
-               
-                <div class="items-container">
-                  <div class="item">
-                    <img src=" https://хасл.рф/components/com_jshopping/files/img_products/21820/nike-21820-1.jpg                    ">
-                    <div class="overflow">
-                      <i class="fa fa-cart-plus fa-5x" id="basket"></i>
-                    </div>
-                    <div class="item-detail">
-                      <h3>Носки</h3>
-                    </div>
-                      <div class="katalog">
-                        <form action="Socks.html">
-                          <button type="submit" class="katalog">Каталог</button>
-                        </form>
-                      </div>
-                    </div>
-                    
-                  </div> 
-                  
+      <div class="item">
+      <img src="https://img.freepik.com/premium-photo/white-blank-shorts-isolated-white-background_373676-1530.jpg">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-basket"
+          fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+        </svg>
+      </div>
+      <div class="item-detail">
+        <h3>Шорты</h3>
+      </div>
+      <div class="catalog">
+        <a href="kofti.html" class="catalog-link">Каталог</a>
+      </div>
+    </div>
+
+      <div class="item">
+      <img src="https://img.freepik.com/premium-photo/winter-warm-jacket-isolated-white-background_564276-4611.jpg">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-basket"
+          fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+        </svg>
+      </div>
+      <div class="item-detail">
+        <h3>Куртки</h3>
+      </div>
+      <div class="catalog">
+        <form action="Jackets.html">
+          <button type="submit" class="catalog">Каталог</button>
+        </form>
+      </div>
+    </div>
+
+      <div class="item">
+      <img src="https://img.freepik.com/premium-photo/white-sneaker-one-white-sneaker-isolated-simulation-walking-process-motion-sport-shoe-concept_256259-605.jpg">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-basket"
+          fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+        </svg>
+      </div>
+      <div class="item-detail">
+        <h3>Обувь</h3>
+      </div>
+      <div class="catalog">
+        <form action="Shoes.html">
+          <button type="submit" class="catalog">Каталог</button>
+        </form>
+      </div>
+    </div>
+
+      <div class="item">
+      <img src="https://i.pinimg.com/originals/ba/46/cc/ba46cc951b76f5e0ddff160ca7c7d450.jpg">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-basket"
+          fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+        </svg>
+      </div>
+      <div class="item-detail">
+        <h3>Свитера</h3>
+      </div>
+      <div class="catalog">
+        <form action="sviters.html">
+          <button type="submit" class="catalog">Каталог</button>
+        </form>
+      </div>
+    </div>
+
+      <div class="item">
+      <img
+        src=" https://хасл.рф/components/com_jshopping/files/img_products/21820/nike-21820-1.jpg                    ">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-basket"
+          fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+        </svg>
+      </div>
+      <div class="item-detail">
+        <h3>Носки</h3>
+      </div>
+      <div class="catalog">
+        <form action="Socks.html">
+          <button type="submit" class="catalog">Каталог</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>

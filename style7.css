@@ -42,11 +42,7 @@ nav ul li a{
 nav ul li a:hover{
   color: #000000;
 }
-.login{
-  text-decoration: none;
-  margin-right: 15px;
-  font-size: 20px;
-}
+
 .btn{
   background: #ffffff;
   border-radius: 6px;
@@ -88,6 +84,11 @@ a{
   color: #fdd9aa;
 }
 .login{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.login{
   color: #000;
   text-decoration: none;
   background: #fff;
@@ -96,7 +97,7 @@ a{
   border-radius: 6px;
   transition: 0.5s;
 } 
-.link .login:hover{
+.buttons .login:hover{
   background: transparent;
   border: 1px solid #fcefef;
   color: #fdd9aa;
@@ -116,7 +117,7 @@ a{
   font-size: 20px;
 }
 
-.link .kontakss:hover{
+.buttons .kontakss:hover{
   background: transparent;
   border: 1px solid #fcefef;
   color: #fdd9aa;

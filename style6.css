@@ -3,11 +3,7 @@
     padding: 0px;
  }
   
-  body{
-    background-image: url('https://lh3.googleusercontent.com/-QEYT2a1VA-s/V9IhCZNMfKI/AAAAAAAAAuY/kuuJ3LD4L3QG_0EwaNFhIalJPOD-C7opQCJoC/w1600-h900/black%2Band%2Bgreen%2Bshards.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   
 
   img {
@@ -33,6 +29,11 @@
     float:left;
   } 
 
+  .items-container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
 
   .item{
     position: relative;
@@ -124,21 +125,31 @@
   .overflow:hover{
     opacity: 1;
   }
-  .katalog{
+  .catalog{
     color: #000;
     text-decoration: none;
     background: #fff;
     padding: 5px 20px;   
     font-weight: bold;
-    opacity: 1;
     border-radius: 6px;
     transition: 0.3s;
   }
-  .katalog:hover{
-    background: transparent;
-    border: 1px solid #ba7a7a;
-    color: #ff9100;
+  .catalog:hover{
+    outline: 1px solid #ff9100;
   }
+
+  .catalog-link {
+    display: inline-flex;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 15px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
   .heading{
     font-size: 45px;
     text-decoration: none;
@@ -148,6 +159,9 @@
   }
   span2{
     color: rgba(144, 0, 255, 0.704); 
+  }
+  .tab {
+    text-decoration: none;
   }
 
  
